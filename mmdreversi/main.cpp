@@ -1149,7 +1149,7 @@ int main()
         cout << endl << "---------------------------------------------------------" << endl ;
     }
     cout << endl << "---------------------------------------------------------" << endl ;
-    cout << "     Have a great day :)" << endl << endl <<  "***( Created by Ardent )*** " << endl <<endl ;
+    cout << "     Have a great day :)" << endl << endl <<  "***( Created by Ardent )*** " << endl << "         1401/10/15 " <<endl ;
     cout << "---------------------------------------------------------" << endl ;
 
     return 0;
