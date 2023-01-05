@@ -1,6 +1,5 @@
 #include <iostream>
 #include <fstream>
-#include <ostream>
 
 using namespace std;
 
@@ -1031,6 +1030,7 @@ int main()
                     cout << "_________________________________" << endl ;
 
                     nobe = 0 ;
+//                end if bod
                 }
 
             int c = b ;
