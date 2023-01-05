@@ -521,9 +521,19 @@ int main()
                     }
                 //    choice
                     int x , y ;
-                    cin >> x >> y ;
-                    x-- ;
-                    y-- ;
+                    cout << endl << "Please enter a possible choice : " ;
+                    while (3) {
+                        cin >> x >> y ;
+                        x-- ;
+                        y-- ;
+                        if(arr[x][y] != 3){
+                            cout << "Please enter a possible choice : " ;
+                        }
+                        else{
+                            break ;
+                        }
+                    }
+
                     arr[x][y] = a ;
                 // (1)   -1 -1
                     if(arr[x-1][y-1] == b  && (x-1) >= 0 && (y-1) >= 0){
